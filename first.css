@@ -1,0 +1,145 @@
+h1{
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	font-family: Georgia;
+	font-size: 50px;
+	text-align: center;
+	background: #ebd3d3;
+	margin:100px 100px;
+	padding: 10px 10px;
+}
+
+img{
+	width: 40%;
+	
+}
+
+#img{
+	text-align: center;
+}
+
+#brand{
+	height: 40px;
+	width: 60px;
+}
+
+
+
+table{
+	border: solid black;
+	text-align: center;
+	margin: auto;
+	width: 60%;
+	margin-top: 50px;
+	background-color: #f5e9e9;
+}
+
+#about{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+body{
+	/*background: url(background.jpg);*/
+	/*background-image: url(background.jpg);*/
+	/*background-repeat: repeat-x;*/
+	/*background-size: cover;*/
+
+}
+
+
+
+#todo{
+	background: pink;
+	width: 80%;
+	margin: auto;
+
+}
+
+a[href="https://www.instagram.com/p/B1JhaEjI1LU/"] {
+	background-color: #F4EEEE;
+	color: black;
+	padding: 0px 10px;
+}
+
+#check{
+	border-width: 1px;
+	border-color: silver;
+	border-style: solid;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+/**{
+	border: 1px solid lightgrey;
+}*/
+
+#form{
+	text-align: center;
+}
+
+#reg{
+	text-align: center;
+}
+
+
+
+p{
+	font-family: 'Sriracha';
+	line-height: 1.5;
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+span{
+	font-size: 1.5em;  /*2.0em je duplo veci od paragrafa u kojem se nalazi*/
+	font-style: italic;
+	color: pink;
+}
+
+h3{
+	text-decoration: underline;
+	font-family: 'Sriracha', cursive;
+	size: bold;
+	text-align: center;
+	padding-top: 20px;
+}
+
+img{
+	width: 30%;
+	margin: 10px;
+	border: 2px solid black;
+}
+
+#galery{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#galery img{
+	/*border: 2px solid black;*/
+	box-shadow: 10px 10px 5px grey;
+}
+
+
+
+#container{
+	margin: 30px 70px 70px 70px;
+	border: 5px solid #ebd3d3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #f8f9fa!important;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nina & Djina & Tina</title>
+	<link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="first.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="index.html">
+	  	    <img id="brand" src="images/brand.jpg" alt="">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="register.html">Login/Register<span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Pages
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="index.html">Welcome Page</a>
+	          <a class="dropdown-item" href="about.html">About</a>
+	          <a class="dropdown-item" href="galery.html">Galery</a>
+	        </div>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+
+	<div id="container">
+		<h1>Login</h1>
+		<div id="form">
+			<form class="login" action="http://google.com" method="GET">
+				<label>Username:
+					<input type="text" name="username" placeholder="username" required>
+				</label><br>
+				<label>Password:
+					<input type="password" name="password" placeholder="password" required>
+				</label><br>
+				<input type="Submit" name="">
+			</form><br>
+
+			<!-- <form class="login" action="http://google.com" method="GET">
+				<label>Email:
+					<input type="email" name="email" placeholder="email" required>
+				</label>
+				<br>
+				<label>Password:
+					<input type="password" name="password" placeholder="password" required>
+				</label>
+				<br>
+				<input type="Submit" name="">
+			</form> -->
+		</div>
+			
+
+		<h1>Register</h1>
+
+		
+
+
+		<form id="reg">
+			<label>First Name:
+				<input type="text" name="firstname" placeholder="John" required>
+			</label>
+			<label>Last Name:
+				<input type="text" name="lastname" placeholder="Smith" required>
+			</label>
+			<div>
+				<label>Male
+					<input type="radio" name="genderChoise" value="MALE">
+				</label>
+				<label>Female
+					<input type="radio" name="genderChoise" value="FEMALE">
+				</label>
+				<label>Other
+					<input type="radio" name="genderChoise" value="OTHER">
+				</label>
+			</div>
+			
+			<div>
+				<label>Email:
+					<input type="email" placeholder="your email" required name="email">
+				</label>
+				<label>Password:
+					<input type="password" placeholder="your password" required name="password" minlength="5" maxlength="10">
+				</label>
+			<div>
+			
+			<div>
+				<label>Birthday:
+					<select name="month" id="month">Month
+						<option>Month</option>
+						<option>1</option>
+						<option>2</option>					
+					</select>
+					<select name="day">Day
+						<option>Day</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>				
+					</select>
+					<select name="year">Year
+						<option>Year</option>
+						<option>1995</option>
+						<option>1996</option>
+					</select>
+				</label>
+			</div>
+
+			<div>
+				<label>I agree to the terms and conditions 
+				<input type="checkbox" name="conditions"></label>
+			</div>
+			<button>Submit</button>
+		</form>	
+		<br>
+
+
+		<div class="footer">
+		  <p>Welcome to our site!</p>
+		</div>
+
+	</div>
+	
+
+	<script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>	
+
+</body>
+</html>
